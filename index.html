@@ -18,7 +18,7 @@
       <h1 class="music-name">Song One</h1>
       <p class="artist-name">Artist</p>
       <!-- Disk -->
-      <div class="disk"></div>
+      <div class="disk play"></div>
       <!-- slider -->
       <div class="song-slider">
         <input type="range" value="0" class="seek-bar" />
@@ -27,9 +27,18 @@
       </div>
 
       <div class="controls">
-        <button class="play-btn">
+        <!-- back button -->
+        <button class="btn backwards-btn">
+          <img src="Images/pre.png" alt="" />
+        </button>
+        <!-- play/pause button -->
+        <button class="play-btn pause">
           <span></span>
           <span></span>
+        </button>
+        <!-- forward button -->
+        <button class="btn forward-btn">
+          <img src="Images/nxt.png" alt="" />
         </button>
       </div>
     </div>
